@@ -44,18 +44,6 @@ The analysis was completed **entirely in Microsoft Excel** using **Power Query**
   
 ---
 
-## Key Measures (DAX)
-```DAX
-Total Claim Amount = SUM(Data[claim_amount])
-Average Claim Amount = AVERAGE(Data[claim_amount])
-Total Clients = DISTINCTCOUNT(Data[Client ID])
-Total Claim Frequency = SUM(Data[claim_frequency])
-Average Claim Frequency = AVERAGE(Data[claim_frequency])
-Claims per 100 Clients =
-DIVIDE([Total Claim Frequency], [Total Clients]) * 100 ``` 
-
---- 
-
 ## Analysis Performed
 - Analyzed claim frequency across **age groups, gender, and marital status**
 - Evaluated the impact of **education level** on average claim amount
